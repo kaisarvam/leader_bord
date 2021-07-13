@@ -166,7 +166,7 @@ padding-right: 10px;
     .players{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: normal;
     }
     .blogs{
         display: flex;
