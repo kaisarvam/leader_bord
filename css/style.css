@@ -86,6 +86,13 @@ color: #562EFF;
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    
+}
+.course{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.11);
+    border-radius: 10px;
+    margin: 20px;
 }
 .course .course-banner img{
     width:224px;
@@ -108,4 +115,15 @@ padding-right: 10px;
    
     margin-right: 20px;
     color: green;
+}
+.course-duration{
+    background-color: rgb(250, 206, 206);
+    color: rgb(216, 24, 24);
+    border-radius: 5px;
+}
+
+
+/* ============= Media Queries ============== */
+@media only screen and (max-width:688px){
+    
 }
