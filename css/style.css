@@ -131,8 +131,7 @@ padding-right: 10px;
 
     .container{
       margin-left: auto;
-        width: 100%;
-     
+        width: 80%;
     }
    
    
@@ -156,7 +155,7 @@ padding-right: 10px;
 }
 
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:580px){
 
     .container{
       
