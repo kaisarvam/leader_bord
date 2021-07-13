@@ -83,7 +83,29 @@ color: #562EFF;
 }
 
 /* -------- courses style ---------- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .course .course-banner img{
     width:224px;
     height: 104px;
+}
+.filled{
+    color: gold;
+    font-size: 12px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.not-filled{
+color: gray;
+font-size: 12px;
+padding-right: 10px;
+}
+.rating{
+   
+    margin-right: 20px;
+    color: green;
 }
