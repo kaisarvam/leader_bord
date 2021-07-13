@@ -106,6 +106,9 @@ color: #562EFF;
     display: flex;
     align-items: center;
 }
+.course-author{
+    color: #ED6B4F;
+}
 .not-filled{
 color: gray;
 font-size: 12px;
